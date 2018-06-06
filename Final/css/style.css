@@ -1,0 +1,388 @@
+html {
+    font: awesome;
+}
+
+#header {
+    padding-bottom: 100px;
+}
+
+#header nav {
+	/* background: none !important; */
+}
+
+#header img {
+    width: 150px;
+    height: 100px;
+}
+
+
+/* #header li.active a {
+	text-decoration-color: red;
+	background-color:#EF233C !important;
+} */
+
+#header li a:hover,
+#header li a:focus {
+    color: deepskyblue;
+}
+
+#header ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#trendding {
+    position: absolute;
+}
+
+
+/* }
+#trendding{
+	color: red;
+	background-color: #333333;
+	border-radius: 15px 0 15px 0;
+	display: inline-block;
+	opacity: 0.6;
+}
+#trending p{
+
+}
+div #slider{
+	overflow: hidden;
+}
+div #slider figure{
+	position: relative;
+	width: 300%;
+	animation: 10s slidy infinite;
+}
+div #slider figure img{
+	width: 33.33%;
+	float: left;
+}
+@keyframes slidy {
+	0% {left: 0%;}
+	30%{left: 0%;}
+	33%{left: -100%;}
+	60%{left: -100%;}
+	66%{left: -200%;}
+	100%{left: -200%;} 
+} */
+
+#sliderbar img {
+    width: 33.33%;
+    height: 20%;
+    overflow: hidden;
+    float: left;
+    transition: all 2s;
+    opacity: 0.93;
+}
+
+#sliderbar img:hover {
+    position: relative;
+    overflow: hidden;
+    transform: scale(1.08, 1.08);
+    opacity: 1;
+    transform:
+}
+
+#trend_text {
+    bottom: 0;
+    z-index: 9;
+    position: absolute;
+    transition: all 2s;
+}
+
+#trend_text h1:hover {
+    /* transform: scale(1.08,1.08); */
+    bottom: -20px;
+}
+
+
+#myCarousel .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .7s ease;
+    backface-visibility: hidden;
+}
+
+#myCarousel .doctin {
+    display: none;
+}
+
+#myCarousel .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#myCarousel .item:hover .image {
+    opacity: 0.3;
+}
+
+#myCarousel .item:hover .middle {
+    opacity: 1;
+}
+
+#myCarousel .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+@media only screen and (max-width: 970px) {
+    #myCarousel .text,
+    .carousel-indicators {
+        display: none;
+    }
+    #myCarousel .middle h3 {
+        font-size: 13px;
+    }
+    #myCarousel .doctin {
+        display: block !important;
+        margin: 0 auto;
+    }
+    #myCarousel .doctin a:link {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.jumbotron {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.tin3 {
+    margin: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 20px;
+}
+
+#leftbar {
+    padding-top: 20px;
+}
+
+#leftbar .td-block-title-wrap {
+    border-bottom: 2px solid #d9534f;
+}
+
+#leftbar .block-title {
+    border-bottom: 0;
+    padding-left: 10px;
+    padding-right: -100px;
+    line-height: 40px;
+    background: #d9534f;
+    border-color: #d9534f;
+}
+
+#tin1FastRead {
+    text-align: justify;
+}
+
+#tin1FastRead .fig {
+    text-align: justify;
+}
+
+#tin1FastRead img {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.block__header {
+    margin-bottom: 7px;
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 44px;
+    line-height: 4.4rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: inherit;
+    /* background: url(https://baomoi-static.zadn.vn/web/styles/img/block__header.png) left 30px repeat-x #fff; */
+    color: #DB562B;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.site-footer {
+  padding: 5em 0;
+  background: #262626;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: #f73471;
+  border-bottom: 1px solid transparent;
+}
+
+.site-footer a:hover {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-footer h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.site-footer .footer-link li {
+  line-height: 1.85;
+  margin-bottom: 15px;
+}
+
+.site-footer hr {
+  width: 100%;
+}
+
+.footer-social a {
+  border-radius: 50%;
+  margin: 0 5px 5px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer-social a:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
+#leftmenu h2 {
+	font-size: 25px;
+    margin: 0px 0px 18px 0px;
+    border-bottom: 2px solid #464646;
+}
+#leftmenu h2 span {
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+    padding: 8px 10px;
+    background: #464646;
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#leftmenu .model_right .panel {
+    background-color: #f1f1f1;
+}
+#leftmenu .panel-primary {
+    border-color: #337ab7;
+}
+#leftmenu .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+#leftmenu .panel-body {
+    padding: 15px;
+}
+#leftmenu .pb7 {
+    padding-bottom: 7.5px;
+}
+#leftmenu .mb7 {
+    margin-bottom: 7.5px;
+}
+#leftmenu .bb-dashed {
+    border-bottom: 1px dashed #d1d1d1;
+}
+#leftmenu .panel .panel-body .order {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 2.5px 7.5px 2.5px 0;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+#leftmenu a {
+    color: #333;
+}
+#leftmenu a {
+    color: #337ab7;
+    text-decoration: none;
+}
+#leftmenu a {
+    background-color: transparent;
+}
+.text-muted {
+    color: #777;
+}
+#leftmenu small, .small {
+    font-size: 80%;
+}
+#leftmenu small, .small {
+    font-size: 85%;
+}
+#leftmenu small {
+    font-size: 80%;
+}

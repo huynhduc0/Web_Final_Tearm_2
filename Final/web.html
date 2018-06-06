@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Báo kinh tế nông thôn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="header" class="col-md-12 col-sm-12">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <!-- phan hien thi tren menu ngoai ul -->
+                        <div class="navbar-header">
+                            <img class="navbar-brand" src="images/logo.png" alt="">
+                            <!-- nut khi responsive -->
+                            <button class="collapsed navbar-toggle" data-toggle="collapse" data-target="#collapseMenu">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- het header tren menu bar-->
+                        <!-- cac muc tren menu bar -->
+                        <div class="collapse navbar-collapse" id="collapseMenu">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="" title="">Tin Tức</a></li>
+                                <li><a href="" title="">Video</a></li>
+                                <li><a href="" title="">Về chúng tôi</a></li>
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Liên hệ <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"> Email</a></li>
+                                        <li><a href="#">Fanpage</a></li>
+                                    </ul>
+                                </li>
+                                 <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Login <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#""  data-toggle="modal" data-target="#loginForm">Sign Up</a></li>
+                                          <li><a href="#""  data-toggle="modal" data-target="#registerForm">Register</a></li>
+                          
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- het header, bat dau tradding -->
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/slidebar02.jpg" alt="Chania" class="image img-responsive">
+                    <div class="middle">
+                        <h3>Phát triển thương hiệu gà đồi: Giải pháp chinh phục TTXK “khó tính”</h3>
+                        <button type="button" class="btn btn-warning doctin"><a href="http://google.com">Đọc tin</a></button>
+                        <p class="text">Theo Trung tâm Khuyến nông Quốc gia (Bộ Nông nghiệp và PTNT), mặc dù ngành chăn nuôi gặp nhiều khó khăn nhưng những năm gần đây, nuôi gà vẫn tăng trưởng 4,91-6,90%/năm.
+                            <br>
+                            <br>
+                            <a href="http://google.com">
+                                <button type="button" class="btn btn-lg btn-warning">Đọc tin</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slidebar03.jpg" alt="Chania" class="image img-responsive">
+                    <div class="middle">
+                        <h3>Quảng Bình: Hỗ trợ hơn 64,7 tỷ đồng cho ngư dân khai thác hải sản trên các vùng biển xa</h3>
+                        <button type="button" class="btn btn-warning doctin"><a href="http://google.com">Đọc tin</a></button>
+                        <p class="text">UBND tỉnh Quảng Bình vừa có Quyết định số 4204/QĐ-UBND về việc trích 64,7 tỷ đồng từ nguồn Trung ương bổ sung có mục tiêu để hỗ trợ kinh phí cho các tàu cá tham gia khai thác hải sản trên vùng biển xa.
+                            <br>
+                            <br>
+                            <a href="http://google.com">
+                                <button type="button" class="btn btn-lg btn-warning">Đọc tin</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/slidebar04.jpg" alt="Chania" class="image img-responsive">
+                    <div class="middle">
+                        <h3>Quảng Bình và Quảng Nam “bắt tay” hợp tác phát triển du lịch</h3>
+                        <button type="button" class="btn btn-warning doctin"><a href="http://google.com">Đọc tin</a></button>
+                        <p class="text">Cuộc gặp gỡ giữa lãnh đạo 2 Sở Văn hóa - Thể thao và Du lịch Quảng Nam và Sở Du lịch Quảng Bình vừa diễn ra nhằm mục đích hướng đến kết nối phát triển sản phẩm du lịch của 2 miền Di sản thế giới: Hội An - Phong Nha.
+                            <br>
+                            <br>
+                            <a href="http://google.com">
+                                <button type="button" class="btn btn-lg btn-warning">Đọc tin</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Trước</span>
+  </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Sau</span>
+  </a>
+        </div>
+    </div>
+    <!-- het sidebar-->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="content" class="col-md-8 col-sm-12">
+                <div id="tit1 col-md-12">
+                    <div class="jumbotron col-md-12">
+                        <div class="text col-md-4">
+                            <h3>Toàn văn Nghị quyết TƯ về cải cách chính sách tiền lương</h3>
+                            <small class="meta text-muted"><span><time class="friendly" datetime="2018-05-22 16:08:58"><i class="glyphicon glyphicon-time
+" aria-hidden="true"></i>&nbsp;6&nbsp;giờ trước</time></span></small>
+                            <h4 class="summary fs-15">Báo KTNT trân trọng đăng toàn văn Nghị quyết số 27-NQ/TW về cải cách chính sách tiền lương đối với cán bộ, công chức, viên chức, lực lượng vũ trang và ...</h4>
+                            <p><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#tin1FastRead">Xem nhanh</a></p>
+                            <!-- The modal -->
+                            <div class="modal fade" id="tin1FastRead" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="modal-title" id="modalLabel">Toàn văn Nghị quyết TƯ về cải cách chính sách tiền lương</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strong>Ngày 21/5/2018, thay mặt Ban Chấp hành Trung ương Đảng khóa 12, Tổng Bí thư Nguyễn Phú Trọng ký ban hành Nghị quyết số 27-NQ/TW về cải cách chính sách tiền lương đối với cán bộ, công chức, viên chức, lực lượng vũ trang và người lao động trong doanh nghiệp.</strong>
+                                            <div class="selectionShareable" align="center">
+                                                <figure>
+                                                    <img class="img-responsive" title="toàn văn nghị quyết tư về cải cách chính sách tiền lương hình 1" src="https://images.vov.vn/cr_w490/uploaded/krigzmiahwkly8uzveukg/2018_05_22/hoi_nghi_tw_7_vov_vcrk.jpg" alt="toan van nghi quyet tu ve cai cach chinh sach tien luong hinh 1" width="597" height="374" data-photo-original-src="https://images.vov.vn/uploaded/krigzmiahwkly8uzveukg/2018_05_22/hoi_nghi_tw_7_vov_vcrk.jpg" data-desc="Hội nghị Trung ương 7 khóa XII đã thông qua 3 Nghị quyết về xây dựng đội ngũ cán bộ cấp chiến lược; về cải cách chính sách tiền lương đối với cán bộ, công chức, lực lượng vũ trang; và cải cách chính sách bảo hiểm xã hội" style="max-width: 98%;"><span class="fig">Hội nghị Trung ương 7 khóa XII đã thông qua 3 Nghị quyết về xây dựng đội ngũ cán bộ cấp chiến lược; về cải cách chính sách tiền lương đối với cán bộ, công chức, lực lượng vũ trang; và cải cách chính sách bảo hiểm xã hội</span>
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- het modal -->
+                                         <!-- The modal dang nhap -->
+                            <div class="modal fade" id="loginForm" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="modal-title" id="modalLabel">Đăng nhập</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                            	<div class="row">
+                                           			<form class="form-signin">
+												        <h2 class="form-signin-heading">Please sign in</h2>
+												        <label for="inputEmail" class="sr-only">Email address</label>
+												        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+												        <label for="inputPassword" class="sr-only">Password</label>
+												        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+												        <div class="checkbox">
+												          <label>
+												            <input type="checkbox" value="remember-me"> Remember me
+												          </label>
+												        </div>
+												        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+												         <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+												      </form>	
+												</div>
+                                           		</div>
+                                           		</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                            <!-- het modal dang nhap -->
+                               <!-- The modal -->
+                            <div class="modal fade" id="registerForm" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            <h4 class="modal-title" id="modalLabel">Đăng nhập</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                            	<div class="row">
+                                           			 <div class="container">
+														    <h1>Register</h1>
+														    <p>Please fill in this form to create an account.</p>
+														    <hr>
+
+														    <label for="email"><b>Email</b></label>
+														    <input type="text" placeholder="Enter Email" name="email" required>
+
+														    <label for="psw"><b>Password</b></label>
+														    <input type="password" placeholder="Enter Password" name="psw" required>
+
+														    <label for="psw-repeat"><b>Repeat Password</b></label>
+														    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+														    <hr>
+														    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+														    <button type="submit" class="registerbtn">Register</button>
+														  </div>
+														  
+														  <div class="container signin">
+														    <p>Already have an account? <a href="#">Sign in</a>.</p>
+														  </div>
+												</div>
+                                           		</div>
+                                           		</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                            <!-- het modal -->
+                        </div>
+                        <img src="images/tit1.jpg" alt="" class="img-responsive col-md-8">
+                        <div class="tin3 col-md-12">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="images/3tin01.jpg" alt="...">
+                                            <div class="caption">
+                                                <a href="#">Thủ tướng Nguyễn Xuân Phúc thị sát ...</a>
+                                                <small class="meta text-muted">
+						<time>
+							<i class="glyphicon glyphicon-time
+" data-toggle="tooltip" data-placement="bottom" data-original-title="Giờ" title=""></i>20:00 - 
+								<i class="glyphicon glyphicon-calendar
+" data-toggle="tooltip" data-placement="bottom" data-original-title="Lịch" title=""></i>19/05/2018
+																	
+						</time>
+															</small>
+                                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="images/3tin02.jpg" alt="...">
+                                            <div class="caption">
+                                                <a href="http://#">Khai mạc Kỳ họp thứ 5, Quốc hội khóa XIV</a>
+                                                <small class="meta text-muted">
+			<time>
+			<i class="glyphicon glyphicon-time
+" data-toggle="tooltip" data-placement="bottom" data-original-title="Giờ" title=""></i>10:52 - 
+		<i class="glyphicon glyphicon-calendar
+" data-toggle="tooltip" data-placement="bottom" data-original-title="Lịch" title=""></i>21/05/2018
+																	
+																</time>
+															</small>
+                                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4">
+                                        <div class="thumbnail">
+                                            <img src="images/3tin03.jpg" alt="...">
+                                            <div class="caption">
+                                                <a href="#">Trồng cây để trục lợi đền bù giải phóng ...</a>
+                                                <small class="meta text-muted">
+			<time>
+			<i class="glyphicon glyphicon-time
+" data-toggle="tooltip" data-placement="bottom" data-original-title="Giờ" title=""></i>07:57 - 
+			<i class="glyphicon glyphicon-calendar
+" data-toggle="tooltip" data-placement="bottom" data-original-title="Lịch" title=""></i>22/05/2018
+			</time>
+		</small>
+                                                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="leftmenu" class="col-md-4 col-sm-12">
+                <div class="container-fluid">
+                    <div class="row">
+                       <h2 class="title"><span class="tl-wrapIn">Social</span></h2>
+
+                    </div>
+                    <div class="row">
+                       <h2 class="title"><span class="tl-wrapIn">Đừng bỏ lỡ...</span></h2>
+                       <div class="panel panel-primary">
+		<div class="panel-heading panel-item text-center font-bold"><span>Đọc nhiều nhất</span></div>
+		
+						<a href="http://kinhtenongthon.vn/hai-phong-nu-truong-phong-giao-duc-bo-gio-lam-viec-di-uong-ruou-post19659.html">
+									<img src="http://kinhtenongthon.vn/cache/news/hai-phong-nu-truong-phong-giao-duc-bo-gio-lam-viec-di-uong-ruou-33994015_1306253882844024_7574883491804872704_n-thumb169.jpg" alt="Hải Phòng: Nữ trưởng phòng Giáo dục bỏ giờ làm việc đi uống rượu " width="100%">
+								</a>		<div class="panel-body">
+			
+							<div class="bb-dashed pb7 mb7"><span class="order order-1">1</span>
+							    <div>
+							    	<a href="http://kinhtenongthon.vn/hai-phong-nu-truong-phong-giao-duc-bo-gio-lam-viec-di-uong-ruou-post19659.html" title="Hải Phòng: Nữ trưởng phòng Giáo dục bỏ giờ làm việc đi uống rượu "><h4 class="fs-1 mall0">Hải Phòng: Nữ trưởng phòng Giáo dục bỏ giờ làm việc đi ... </h4></a>
+
+									
+							    	<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-31 10:20:00"><i class="fa fa-clock-o" aria-hidden="true"></i>10:20 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ năm, 31/05/2018</time></span></small>
+							    </div>
+			        		</div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-2">2</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/hai-phong-cong-an-vao-cuoc-vu-phu-huynh-to-bo-bao-ve-dam-o-hoc-sinh-post19744.html" title="Hải Phòng: Công an vào cuộc vụ phụ huynh “tố” bố bảo vệ dâm ô học sinh"><h4 class="fs-1 mall0">Hải Phòng: Công an vào cuộc vụ phụ huynh “tố” bố bảo vệ ... </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-06-04 07:19:00"><i class="fa fa-clock-o" aria-hidden="true"></i>07:19 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ hai, 04/06/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-3">3</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/hai-phong-phu-huynh-tieu-hoc-to-bo-cua-bao-ve-dam-o-hoc-sinh-post19683.html" title="Hải Phòng: Phụ huynh tiểu học “tố” bố của bảo vệ dâm ô học sinh "><h4 class="fs-1 mall0">Hải Phòng: Phụ huynh tiểu học “tố” bố của bảo vệ dâm ô ... </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-31 23:00:00"><i class="fa fa-clock-o" aria-hidden="true"></i>23:00 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ năm, 31/05/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-4">4</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/quang-ngai-trien-khai-chuong-trinh-moi-xa-mot-san-pham-tai-binh-son-post19634.html" title="Quảng Ngãi: Triển khai chương trình “Mỗi xã một sản phẩm” tại Bình Sơn"><h4 class="fs-1 mall0">Quảng Ngãi: Triển khai chương trình “Mỗi xã một sản phẩm” ... </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-29 19:05:00"><i class="fa fa-clock-o" aria-hidden="true"></i>19:05 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ ba, 29/05/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-5">5</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/vu-transerco-ve-bay-len-dat-quy-hoach-ubnd-quan-cau-giay-tho-o-post19624.html" title="Vụ Transerco “vẽ bậy” lên đất quy hoạch: UBND quận Cầu Giấy thờ ơ?"><h4 class="fs-1 mall0">Vụ Transerco “vẽ bậy” lên đất quy hoạch: UBND quận Cầu ... </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-29 09:44:00"><i class="fa fa-clock-o" aria-hidden="true"></i>09:44 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ ba, 29/05/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-6">6</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/hai-duong-lan-dau-to-chuc-le-hoi-vai-thieu-thanh-ha-post19658.html" title="Hải Dương lần đầu tổ chức Lễ hội vải thiều Thanh Hà  "><h4 class="fs-1 mall0">Hải Dương lần đầu tổ chức Lễ hội vải thiều Thanh Hà   </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-31 07:55:02"><i class="fa fa-clock-o" aria-hidden="true"></i>07:55 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ năm, 31/05/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-7">7</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/long-an-video-truong-cong-an-xa-doi-hon-100-trieu-dong-lam-cmnd-post19751.html" title="Long An: Video Trưởng Công an xã đòi hơn 100 triệu đồng làm CMND"><h4 class="fs-1 mall0">Long An: Video Trưởng Công an xã đòi hơn 100 triệu đồng làm CMND </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-06-04 12:58:00"><i class="fa fa-clock-o" aria-hidden="true"></i>12:58 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ hai, 04/06/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-8">8</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/lam-dong-can-giai-quyet-den-bu-cho-nguoi-dan-post19649.html" title="Lâm Đồng: Cần giải quyết đền bù cho người dân"><h4 class="fs-1 mall0">Lâm Đồng: Cần giải quyết đền bù cho người dân </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-30 13:00:00"><i class="fa fa-clock-o" aria-hidden="true"></i>13:00 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ tư, 30/05/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-9">9</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/lanh-dao-phong-cua-dai-ptth-thai-binh-bi-to-an-chan-tien-nhuan-but-post19667.html" title="Lãnh đạo phòng của Đài PTTH Thái Bình bị tố " ăn="" chặn"="" tiền="" nhuận="" bút="" "=""><h4 class="fs-1 mall0">Lãnh đạo phòng của Đài PTTH Thái Bình bị tố "ăn chặn" tiền ... </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-05-31 13:02:00"><i class="fa fa-clock-o" aria-hidden="true"></i>13:02 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ năm, 31/05/2018</time></span></small>
+								</div>
+			                </div>
+							<div class="bb-dashed pb7 mb7">
+								<span class="order order-10">10</span>
+								<div>
+			                		<a href="http://kinhtenongthon.vn/net-am-thuc-doc-dao-hut-khach-vung-cao-nguyen-trang-post19703.html" title="Nét ẩm thực độc đáo “hút khách” vùng cao nguyên trắng"><h4 class="fs-1 mall0">Nét ẩm thực độc đáo “hút khách” vùng cao nguyên trắng </h4></a>
+									
+			                		<small class="meta text-muted"><span><time class="friendly" datetime="2018-06-01 13:33:49"><i class="fa fa-clock-o" aria-hidden="true"></i>13:33 - <i class="fa fa-calendar" aria-hidden="true"></i>Thứ sáu, 01/06/2018</time></span></small>
+								</div>
+			                </div>		</div>
+	</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- het sidemenu, bat dau footer -->
+                    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 mb-5">
+            <h3>Nếu bạn muốn biết</h3>
+            <p class="mb-5">TudiRestaurant là nhà hàng số 1 tại Đà Nẵng trong nhiều năm liền</p>
+            <ul class="list-unstyled footer-link d-flex footer-social">
+              <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="https://www.facebook.com/vietanh.1269" class="p-2"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="https://www.instagram.com/pnvietanh__/" class="p-2"><span class="fa fa-instagram"></span></a></li>
+            </ul>
+
+          </div>
+          <div class="col-md-5 mb-5">
+            <h3>Thông tin liên hệ</h3>
+            <ul class="list-unstyled footer-link">
+              <li class="d-block">
+                <span class="d-block">Địa chỉ:</span>
+                <span class="text-white">
+                Nam Kỳ Khởi Nghĩa, Ngũ Hành Sơn, Đà Nẵng.</span></li>
+                <span class="text-white">
+                75A Trần Hưng Đạo.</span></li>
+              <li class="d-block"><span class="d-block">Số điện thoại:</span><span class="text-white">01697347197</span></li>
+              <li class="d-block"><span class="d-block">Email:</span><span class="text-white">pnvanh.17it3@sict.udn.vn</span></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h3>Giờ mở cửa</h3>
+            <ul class="list-unstyled footer-link">
+              <li>Thứ 2-6: 9h30-23h00</li>
+              <li>Thứ 7-CN: 7h30-24h00</li>
+              <li>Phục vụ tất cả các ngày lễ trong tuần</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+          
+          </div>
+        </div>
+      </div>
+    </footer>
+               
+    <!-- het content -->
+</body>
+
+</html>
